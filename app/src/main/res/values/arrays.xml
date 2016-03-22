@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="states">
+        <item>Alabama,AL,Montgomery</item>
+        <item>Alaska,AK,Juneau</item>
+        <item>Arizona,AZ,Phoenix</item>
+        <item>Arkansas,AR,Little Rock</item>
+        <item>California,CA,Sacramento</item>
+        <item>Colorado,CO,Denver</item>
+        <item>Connecticut,CT,Hartford</item>
+        <item>Delaware,DE,Dover</item>
+        <item>Florida,FL,Tallahassee</item>
+        <item>Georgia,GA,Atlanta</item>
+        <item>Hawaii,HI,Honolulu</item>
+        <item>Idaho,ID,Boise</item>
+        <item>Illinois,IL,Springfield</item>
+        <item>Indiana,IN,Indianapolis</item>
+        <item>Iowa,IA,Des Moines</item>
+        <item>Kansas,KS,Topeka</item>
+        <item>Kentucky[D],KY,Frankfort</item>
+        <item>Louisiana,LA,Baton Rouge</item>
+        <item>Maine,ME,Augusta</item>
+        <item>Maryland,MD,Annapolis</item>
+        <item>Massachusetts[E],MA,Boston</item>
+        <item>Michigan,MI,Lansing</item>
+        <item>Minnesota,MN,St. Paul</item>
+        <item>Mississippi,MS,Jackson</item>
+        <item>Missouri,MO,Jefferson City</item>
+        <item>Montana,MT,Helena</item>
+        <item>Nebraska,NE,Lincoln</item>
+        <item>Nevada,NV,Carson City</item>
+        <item>New Hampshire,NH,Concord</item>
+        <item>New Jersey,NJ,Trenton</item>
+        <item>New Mexico,NM,Santa Fe</item>
+        <item>New York,NY,Albany</item>
+        <item>North Carolina,NC,Raleigh</item>
+        <item>North Dakota,ND,Bismarck</item>
+        <item>Ohio,OH,Columbus</item>
+        <item>Oklahoma,OK,Oklahoma City</item>
+        <item>Oregon,OR,Salem</item>
+        <item>Pennsylvania[F],PA,Harrisburg</item>
+        <item>Rhode Island[G],RI,Providence</item>
+        <item>South Carolina,SC,Columbia</item>
+        <item>South Dakota,SD,Pierre</item>
+        <item>Tennessee,TN,Nashville</item>
+        <item>Texas,TX,Austin</item>
+        <item>Utah,UT,Salt Lake City</item>
+        <item>Vermont,VT,Montpelier</item>
+        <item>Virginia[H],VA,Richmond</item>
+        <item>Washington,WA,Olympia</item>
+        <item>West Virginia,WV,Charleston</item>
+        <item>Wisconsin,WI,Madison</item>
+        <item>Wyoming,WY,Cheyenne</item>
+    </string-array>
+</resources>
