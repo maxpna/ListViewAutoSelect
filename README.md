@@ -4,11 +4,11 @@
 
 # Table of Contents
 1. [Overview](#overview)
-2. [How to download ListViewAutoSelect]
+2. [How to download ListViewAutoSelect](#how-to-download-listviewautoselect)
  1. [Single File](#single-file)
  2. [Android Project](#android-project)
 3. [How to Use](#how-to-use)
- 1. [Make a List Item Object and Override toString()](#make-your-row-object-and-override-tostring())
+ 1. [Make a List Item Object and Override toString()](#make-your-row-object-and-override-tostring)
  2. [Extending BaseAdapterAutoSelect](#extending-baseadapterautoselect)
  3. [Triggering Update](#triggering-update)
 4. [Initialize Adapter](#initialize-adapter)
@@ -27,7 +27,7 @@ The main steps for implementing a solution are:
 2. Write your object that represents each row in the listview (Unless you're just using strings).
 3. Implement a watcher for your input so that everytime the input changes, you call .RefreshData on the adapter.
 
-##How to Download
+##How to Download ListViewAutoSelect
 
 You can either download a single file and copy to your project or you can download the entire android project and play with it.
 
