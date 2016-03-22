@@ -8,7 +8,7 @@
  1. [Single File](#single-file)
  2. [Android Project](#android-project)
 3. [How to Use](#how-to-use)
- 1. [Make a List Item Object and Override toString()](#make-your-row-object-and-override-tostring)
+ 1. [Make a List Item Object and Override toString()](#make-a-list-item-object-and-override-tostring)
  2. [Extending BaseAdapterAutoSelect](#extending-baseadapterautoselect)
  3. [Triggering Update](#triggering-update)
 4. [Initialize Adapter](#initialize-adapter)
