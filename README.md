@@ -15,7 +15,7 @@
 
 This is a complete Android project showing how to create a list adapter that can auto select as you type into an input field. An 
 example of this would be: a list of all the states in the U.S. You start typing in 'T' and you'll see only the states that contain the 
-letter 'T'. In this case you'll see Texas, Tennessee, etc. etc.
+letter 'T'. In this case you'll see Texas, Tennessee, Washington, etc. etc.
 
 You can get either the list adapter or the entire project.
 
@@ -30,7 +30,7 @@ The main steps for implementing a solution are:
 You can either download a single file and copy to your project or you can download the entire android project and play with it.
 
 ###Single File
-To download the single file using the following location:
+To download the single file use the following location:
 * https://github.com/maxpower-ndrd/ListViewAutoSelect/blob/master/app/src/main/java/com/mpn/listviewautoselect/listadapters/BaseAdapterAutoSelect.java
 
 ###Android Project
