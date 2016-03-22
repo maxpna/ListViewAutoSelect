@@ -86,7 +86,8 @@ public class SampleAdapterAutoSelect extends BaseAdapterAutoSelect<StateObject> 
     // implement viewholder patterns and any other efficiency affecting patterns. this is just a sample
     
     // to refer to the list containing the data, use .items here.
-    
+    // StateObject item = getItem(position);  // this is your current object
+
     // implement a view
     
     return convertView;
