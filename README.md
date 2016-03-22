@@ -53,7 +53,7 @@ To use this you must follow the steps listed below
 
 ###Make a List Item Object and Override toString()
 
-Make your class that will be used to store the data represent in a single row. It could be part of your model, a simplified model just used for the listvew, or just a regular string. If you're just using regular strings, you don't need this object.
+Make your class that will be used to store the data represented in a single row. It could be part of your model, a simplified model just used for the listvew, or just a regular string. If you're just using regular strings, you don't need this object.
 
 You must override the toString() function to return the display name that will be searched when the user starts typing.
 
