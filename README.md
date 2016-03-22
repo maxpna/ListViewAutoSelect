@@ -9,7 +9,7 @@
  2. [Android Project](#android-project)
 3. [How to Use](#how-to-use)
  1. [Make a List Item Object and Override toString()](#make-a-list-item-object-and-override-tostring)
- 2. [Extending BaseAdapterAutoSelect](#extending-baseadapterautoselect)
+ 2. [Extend BaseAdapterAutoSelect](#extend-baseadapterautoselect)
  3. [Triggering Update](#triggering-update)
 4. [Initialize Adapter](#initialize-adapter)
 
@@ -72,7 +72,7 @@ public class StateObject {
 }
 ```
 
-###Extending BaseAdapterAutoSelect
+###Extend BaseAdapterAutoSelect
 Extends the BaseAdapterAutoSelect and provide your getView(). If you need to store context or other items, add those private variables. 
 
 ```
