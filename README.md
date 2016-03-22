@@ -1,5 +1,3 @@
-###Under construction.
-
 # ListViewAutoSelect
 
 # Table of Contents
