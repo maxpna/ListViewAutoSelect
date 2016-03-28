@@ -24,6 +24,8 @@ The main steps for implementing a solution are:
 1. Extend BaseAdapterAutoSelect and provide your own getView() implementation.
 2. Write your object that represents each row in the listview (Unless you're just using strings).
 3. Implement a watcher for your input so that everytime the input changes, you call .RefreshData on the adapter.
+4. Initialize adapter.
+
 
 ##How to Download ListViewAutoSelect
 
@@ -95,7 +97,7 @@ public class SampleAdapterAutoSelect extends BaseAdapterAutoSelect<StateObject> 
 }
 ```
 ###Triggering Update
-To trigger an update when the input is updated, add a listening to your EditText or other input control so you can determine when to update the listview. When the EditText or any other input changes, call the following method on the list adapter.
+To trigger an update when the input is updated, add a listener to your EditText or other input control so you can determine when to update the listview. When the EditText or any other input changes, call the following method on the list adapter.
 ```
 public void RefreshData(String searchString)
 ```
