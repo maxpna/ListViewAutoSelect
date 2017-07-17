@@ -11,7 +11,7 @@
  3. [Triggering Update](#triggering-update)
 4. [Initialize Adapter](#initialize-adapter)
 
-##Overview
+## Overview
 
 This is a complete Android project showing how to create a list adapter that can auto select as you type into an input field. An 
 example of this would be: a list of all the states in the U.S. You start typing in 'T' and you'll see only the states that contain the 
@@ -27,15 +27,15 @@ The main steps for implementing a solution are:
 4. Initialize adapter.
 
 
-##How to Download ListViewAutoSelect
+## How to Download ListViewAutoSelect
 
 You can either download a single file and copy to your project or you can download the entire android project and play with it.
 
-###Single File
+### Single File
 To download the single file use the following location:
 * https://github.com/maxpower-ndrd/ListViewAutoSelect/blob/master/app/src/main/java/com/mpn/listviewautoselect/listadapters/BaseAdapterAutoSelect.java
 
-###Android Project
+### Android Project
 You can download the Android Studio project using any of the methods listed here.
 * Make a git clone of the repo over https
 ```
@@ -47,11 +47,11 @@ git clone git@github.com:maxpower-ndrd/ListViewAutoSelect.git
 ```
 * Use the [Download Zip](https://github.com/maxpower-ndrd/ListViewAutoSelect/archive/master.zip) link from the projects [main page](https://github.com/maxpower-ndrd/ListViewAutoSelect)
 
-##How to Use
+## How to Use
 
 To use this you must follow the steps listed below
 
-###Make a List Item Object and Override toString()
+### Make a List Item Object and Override toString()
 
 Make your class that will be used to store the data represented in a single row. It could be part of your model, a simplified model just used for the listvew, or just a regular string. If you're just using regular strings, you don't need this object.
 
@@ -72,7 +72,7 @@ public class StateObject {
 }
 ```
 
-###Extend BaseAdapterAutoSelect
+### Extend BaseAdapterAutoSelect
 Extends the BaseAdapterAutoSelect and provide your getView(). If you need to store context or other items, add those private variables. 
 
 ```
@@ -96,7 +96,7 @@ public class SampleAdapterAutoSelect extends BaseAdapterAutoSelect<StateObject> 
   }
 }
 ```
-###Triggering Update
+### Triggering Update
 To trigger an update when the input is updated, add a listener to your EditText or other input control so you can determine when to update the listview. When the EditText or any other input changes, call the following method on the list adapter.
 ```
 public void RefreshData(String searchString)
@@ -118,7 +118,7 @@ The following example shows an EditText, a listener and a call to RefreshData.
       public void afterTextChanged(Editable s) { }
     });
 ```
-###Initialize Adapter
+### Initialize Adapter
 In your main activity, initialize the adapter with a blank filter. In your onCreate, put the following call.
 ```
     adapter.RefreshData("");
